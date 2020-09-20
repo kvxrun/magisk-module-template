@@ -21,12 +21,6 @@ mkdir -p $INSTALLER
 # echo before loading util_functions
 ui_print() { echo "$1"; }
 
-require_new_magisk() {
-  ui_print "*******************************"
-  ui_print " Please install Magisk v17.0+! "
-  ui_print "*******************************"
-  exit 1
-}
 
 ##########################################################################################
 # Environment
